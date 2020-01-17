@@ -12,4 +12,6 @@
 * Visual Studio 2015 (Windows)
 * Windows Forms
 * GDI+
+* Anti-aliasing
+* Double buffering
 * WinAPI32 (Interop)
