@@ -46,7 +46,7 @@ namespace anaclo
             var g = e.Graphics;
             g.SmoothingMode = SmoothingMode.HighQuality;
 
-            e.Graphics.FillEllipse(Brushes.Gainsboro, this.ClientRectangle);
+            g.FillEllipse(Brushes.Gainsboro, this.ClientRectangle);
 
             for (var m = 0; m < 60; m++)
                 g.DrawLine(_pens["t"], GetCoords(m, 60, m % 5 == 0 ? 0.9 : 0.98), GetCoords(m, 60));
